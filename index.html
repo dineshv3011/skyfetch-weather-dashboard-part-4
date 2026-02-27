@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SkyFetch Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🌤 SkyFetch Weather Dashboard</h1>
+
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="recent-section">
+            <h3>Recent Searches:</h3>
+            <div id="recentSearches"></div>
+        </div>
+
+        <div id="weatherResult"></div>
+
+        <div id="forecastContainer" class="forecast-grid"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
